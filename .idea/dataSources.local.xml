@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - sbbdatabase@localhost" uuid="c26fbbaf-7a15-4991-bfae-a3c16d39abaf">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>sbbdatabase.*</schema-pattern>
+      <default-schemas>sbbdatabase.*</default-schemas>
+    </data-source>
+  </component>
+</project>

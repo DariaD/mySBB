@@ -15,7 +15,7 @@ public class StationServiceTest {
 
         @Test
         public void testSaveRecord() throws Exception {
-            //Создаем автомобиль для записи в БД
+            //Создаем gjtpl для записи в БД
             Station station1 = new Station();
             station1.setName("Saarbrucken");
 

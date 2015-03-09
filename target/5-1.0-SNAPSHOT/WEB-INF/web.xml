@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+    <servlet-name>Redirect</servlet-name>
+    <servlet-class>com.servlet.Redirect</servlet-class>
+</servlet>
+
+    <servlet-mapping>
+        <servlet-name>Redirect</servlet-name>
+        <url-pattern>/re</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Authentication</servlet-name>
+        <servlet-class>com.servlet.Authentication</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Authentication</servlet-name>
+        <url-pattern>/Authentication</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddStation</servlet-name>
+        <servlet-class>com.servlet.AddStation</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddStation</servlet-name>
+        <url-pattern>/AddStation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddTrain</servlet-name>
+        <servlet-class>com.servlet.AddTrain</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddTrain</servlet-name>
+        <url-pattern>/AddTrain</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddRoute</servlet-name>
+        <servlet-class>com.servlet.AddRoute</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddRoute</servlet-name>
+        <url-pattern>/AddRoute</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Search</servlet-name>
+        <servlet-class>com.servlet.Search</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>Search</servlet-name>
+        <url-pattern>/Search</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Dispatcher</servlet-name>
+        <servlet-class>com.servlet.Dispatcher</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Dispatcher</servlet-name>
+        <url-pattern>/Dispatcher</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckUser</servlet-name>
+        <servlet-class>com.servlet.CheckUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckUser</servlet-name>
+        <url-pattern>/CheckUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Registration</servlet-name>
+        <servlet-class>com.servlet.Registration</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Registration</servlet-name>
+        <url-pattern>/Registration</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddUser</servlet-name>
+        <servlet-class>com.servlet.AddUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUser</servlet-name>
+        <url-pattern>/AddUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>TicketBuy</servlet-name>
+        <servlet-class>com.servlet.TicketBuy</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TicketBuy</servlet-name>
+        <url-pattern>/TicketBuy</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PassengerViewer</servlet-name>
+        <servlet-class>com.servlet.PassengerViewer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PassengerViewer</servlet-name>
+        <url-pattern>/PassengerViewer</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>ShowStationSchedule</servlet-name>
+        <servlet-class>com.servlet.ShowStationSchedule</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowStationSchedule</servlet-name>
+        <url-pattern>/ShowStationSchedule</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>Authentication.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
